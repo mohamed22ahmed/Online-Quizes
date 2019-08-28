@@ -77,6 +77,7 @@
                         <th style='text-align:center;'>Quiz Degree</th>
                     </tr>
                 ";
+                
                 while($row=mysqli_fetch_array($q)){
                     $id=$row['id'];
                     $name=$row['name'];
@@ -96,9 +97,10 @@
                                     <td>$degree</td>
                                 </tr>
                             ";
+                            
                         }
                     }
-
+                    
                 }
                 echo "</table><br>";
             ?>
